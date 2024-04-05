@@ -16,3 +16,8 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math
+height = int(input("give me a value for height"))
+radius = int(input("give me a value for radius"))
+sa = math.pi*radius*(radius+((height**2+radius**2)**0.5))
+print("sa="+str(sa))
